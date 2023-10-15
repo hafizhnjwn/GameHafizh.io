@@ -1,0 +1,45 @@
+.grid {
+	background: url('img/bg.png');
+	width: 300px;
+	height: 500px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+    margin-right: auto;
+}
+.results {
+	width: 100%; /* Menggunakan lebar maksimum */
+	text-align: center; /* Mengatur teks ke tengah */
+	position: absolute;
+	top: 70%;
+	transform: translateY(-50%);
+	font-size: 24px; /* Atur ukuran font sesuai kebutuhan Anda */
+  }
+
+.grid div {
+	width: 20px;
+	height: 20px;
+}
+
+.invader {
+	background: url('img/invader.png') center/cover; /* Ganti 'path/to/alien-image.png' dengan path gambar alien Anda */
+	width: 20px; /* Ubah sesuai kebutuhan ukuran alien */
+	height: 20px; /* Ubah sesuai kebutuhan ukuran alien */
+  }
+
+.shooter {
+	background: url('img/player.png') center/cover; /* Ganti 'path/to/alien-image.png' dengan path gambar alien Anda */
+	width: 20px; /* Ubah sesuai kebutuhan ukuran alien */
+	height: 100px;
+}
+
+.laser {
+	background: url('img/laser.png') ;
+	width: 5px;
+	height: 5px;
+}
+
+.boom {
+	background-color: red;
+}

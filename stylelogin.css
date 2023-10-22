@@ -2,7 +2,7 @@
   margin : 0;
   padding: 0;
   box-sizing:border-box;
-  font-family: sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 body {
@@ -10,11 +10,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('stars.jpg');
+  background-image: url('img/loginbg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
   position: fixed;
   top: 0;
   right: 0;
@@ -55,8 +55,8 @@ body {
 .btn {
   width: 25%;
   height: 45px;
-  background: white;
-  border-radius: 40px;
+  background:grey;
+
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
   cursor: pointer;
   font-size: 16px;
@@ -73,7 +73,7 @@ input {
   margin-top: 10px;
   margin-bottom: 10px;
   background: transparent;
-  border-radius: 40px;
+
   border: 2px solid rgb(0, 0, 0);
   size: 60px;
   padding-left: 10px;

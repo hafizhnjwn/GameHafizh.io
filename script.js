@@ -21,7 +21,7 @@ document.getElementById('authForm').addEventListener('submit', function (e) {
         if (data.status === 'success') {
             const accessToken = data.data.access_token;
             alert('Login berhasil!');
-            window.location.href = 'index.html';
+            window.location.href = 'game.html';
             
         } else {
             alert('Login failed. Check your email and password!');
